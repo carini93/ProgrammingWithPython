@@ -1,12 +1,8 @@
 # ProgrammingWithPython
  
 
-# 1.  TASK 
-The starting point for your term paper will be the course book, the contents of which will serve as the basis for an 
-in-depth  examination  of  one  of  the  following  questions.  You  are  expected  to  research  and  cite  from  sources 
-corresponding to your chosen topic. 
- 
-# 1.1  Description of the Task 
+  
+## 1.1  Description of the Task 
 You  get  (A)  4  training  datasets  and  (B)  one  test  dataset,  as  well  as  (C)  datasets  for  50  ideal  functions.  All  data 
 respectively consists of x-y-pairs of values.   
 
@@ -16,19 +12,19 @@ i) Afterwards, the program  must use the test data  provided (B) to   determine 
 pair  of  values  whether  or  not  they  can  be  assigned  to  the  four  chosen  ideal  functions;  if  so,  the 
 program also needs to execute the mapping and save it together with the deviation at hand 
 ii) All data must be visualized logically 
-iii) Where possible, create/ compile suitable unit-test 
+iii) Where possible, create/ compile suitable unit-test.
  
 The criterion for choosing the ideal functions for the training function is how they minimize the sum of all y-
 deviations  squared (Least-Square). 
 The criterion for mapping the individual test case to the four ideal functions is that the existing maximum 
 deviation of the calculated regression does not exceed the largest deviation between training dataset (A) and 
-the ideal function (C) chosen for it by more than  factor  sqrt(2) 
+the ideal function (C) chosen for it by more than  factor  sqrt(2).
  
 In order to give proof of your skills in Python related to this course, you need to adhere to certain criteria when 
 solving the exercise; these criteria are subsequently described under ‘Details.’ 
  
  
-# 1.2  Details 
+## 1.2  Details 
 You are given four training datasets in the form of csv-files.  Your Python program needs to be able to 
 independently compile a SQLite database (file) ideally via sqlalchemy and load the training data into a single five-
 column spreadsheet / table in the file. Its first column depicts the x-values of all functions.  Table 1, at the end of 
@@ -53,3 +49,5 @@ as well as others
 − Write unit-tests for all useful elements 
 − Your  code  needs  to  be  documented  in  its  entirety  and  also  include  Documentation  Strings,  known  as 
 ”docstrings“ 
+
+[Code](https://github.com/carini93/ProgrammingWithPython/blob/master/ProgrammingWithPython.ipynb) : at this link you can find the python code created to solve the task.
